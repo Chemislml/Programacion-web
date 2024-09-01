@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+.tabla1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+.tabla1 td{
+    border: 2px solid black;
+}
+
+.inicio{
+    background-color: blue;
+    color: white;
+}
+
+.matematicas{
+    background-color: aqua;
+}
+
+.programa{
+    background-color: yellow;
+}
+
+.social{
+    background-color: blueviolet;
+}
+
+.labo{
+    background-color: rgb(23, 219, 23);
+}
+
+.salsa{
+    background-color: red;
+}
