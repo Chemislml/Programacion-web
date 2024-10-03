@@ -1,0 +1,73 @@
+@font-face {
+    font-family: FuenteJOse;
+    src: url(./Fuentes/Mister\ Grape\ -\ Personal\ Use.otf);
+}
+
+body{
+    background: darkmagenta;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: arial;
+    padding: 5em;
+  }
+  
+  .fondoblanco{
+    background-color: white;
+  }
+  
+  .fondoazul{
+    background-color: aqua;
+  }
+  
+  .imagen{
+    width: 150px;
+  }
+  .texto1{
+    font-family: 'FuenteJOse';
+    text-align: center;
+    font-size: 3em;
+    color: gold;
+  }
+  .texto2{
+    font-size: 1em;
+    color: white;
+    background-color: pink;
+    text-align: justify;
+  }
+  
+  .separacion{
+    padding: 1em;
+    
+  }
+  .texto3{
+    text-align: center;
+    color: blue;
+  }
+  
+  .borde{
+    border: 10px white solid;
+    border-radius: 10px;
+  }
+  
+  .texto4{
+    font-family: 'FuenteJOse';
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 2em;
+  }
+  
+  .bordeazul{
+    border: 5px sokid;
+    border-radius: 10px;
+  }
+  
+  .bordeverde{
+    border: 5px sokid;
+    border-radius: 10px;
+  }
+  
+  li{
+    margin-top: 10px;
+  }
+  
