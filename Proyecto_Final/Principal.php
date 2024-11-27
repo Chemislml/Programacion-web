@@ -11,12 +11,12 @@ if (!isset($no_cuenta)) {
     <head>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Bienvenido</title>
+        <title>Lista de Clientes</title>
         <!-- Materialize CSS -->
         <link href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css' rel='stylesheet'>
         <!-- Material Icons -->
         <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
-        <link rel='shortcut icon' href='../Loginweb/Css/favicon/icon.png' type='image/x-icon'>
+        <link rel='shortcut icon' href='Css/favicon/icon.png' type='image/x-icon'>
 
         <style>
 
@@ -88,7 +88,7 @@ if (!isset($no_cuenta)) {
     </head>
     <body>
         <div class='container'>
-            <h1 class='center-align header-text'>Lista de Clientes</h1>
+            <h1 class='center-align header-text'>LISTA DE CLIENTES</h1>
             <p class='right-align'>Usuario: <strong>$no_cuenta</strong></p>
             <div class='table-container'>
     ";

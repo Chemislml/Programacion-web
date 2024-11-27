@@ -8,7 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="../Loginweb/Css/favicon/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Css/favicon/icon.png" type="image/x-icon">
 
     <style>
 
@@ -55,7 +55,7 @@
             background-attachment: fixed;
             " >
     <header>
-        <h3>Nuevo Cliente</h3>
+        <h3>NUEVO CLIENTE</h3>
     </header>
     
     <div class="container form-container">
@@ -66,11 +66,6 @@
                     <input id="nombre_usuario" type="text" name="nombre_usuario" required maxlength="100">
                     <label for="nombre_usuario">Ingresa tu nombre</label>
                 </div>
-                <!-- Carrera -->
-                <div class="input-field">
-                    <input id="carrera" type="text" name="carrera" required maxlength="100">
-                    <label for="carrera">Carrera</label>
-                </div>
                 <!-- Correo -->
                 <div class="input-field">
                     <input id="email" type="email" name="email" required maxlength="100">
@@ -79,7 +74,7 @@
                 <!-- Número de cuenta -->
                 <div class="input-field">
                     <input id="no_cuenta" type="text" name="no_cuenta" required maxlength="100">
-                    <label for="no_cuenta">Número de Usuario</label>
+                    <label for="no_cuenta">Número de cliente</label>
                 </div>
                 <!-- Dirección -->
                 <div class="input-field">

@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link rel="shortcut icon" href="../Loginweb/Css/favicon/icon.png" type="image/x-icon">
-
+<link rel="shortcut icon" href="Css/favicon/icon.png" type="image/x-icon">
+<title>Inicio</title>
 
 <style>
         .card {

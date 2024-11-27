@@ -21,8 +21,12 @@ $count = mysqli_num_rows($resultado);
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         body {
-            background-color: #efebe9; /* Marrón claro */
             display: flex;
+            background-image: url(Css/img/fondo_re.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
@@ -37,14 +41,17 @@ $count = mysqli_num_rows($resultado);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
         }
         .btn-custom {
-            background-color: #6d4c41 !important; /* Marrón oscuro */
+            background-color: #1b5e20  !important;
+            margin-right: 30px; 
+            transition: transform 0.3s ease-in-out;
         }
         .btn-custom:hover {
-            background-color: #5d4037 !important; /* Marrón más oscuro */
+            background-color: #1b5e20 !important; 
+            transform: scale(1.05);
         }
     </style>
 </head>
-<body>
+<body >
     <div class="card brown lighten-5">
         <div class="card-content center-align">
             <!-- Mensajes -->
@@ -56,7 +63,7 @@ $count = mysqli_num_rows($resultado);
                     nombre_usuario, carrera, no_cuenta, direccion, telefono, email, password
                 ) VALUES (
                     '$_POST[nombre_usuario]',
-                    '$_POST[carrera]',
+                    'ico',
                     '$_POST[no_cuenta]',
                     '$_POST[direccion]',
                     '$_POST[telefono]',
